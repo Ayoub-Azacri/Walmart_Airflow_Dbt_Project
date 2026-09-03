@@ -1,0 +1,19 @@
+# Environment & Secrets
+.env
+*.env
+
+# Airflow Logs & Volumes
+logs/
+*.log
+airflow.cfg
+minio_data/
+
+# dbt Artifacts & Runtime Cache
+walmart_project/target/
+walmart_project/logs/
+walmart_project/dbt_packages/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
