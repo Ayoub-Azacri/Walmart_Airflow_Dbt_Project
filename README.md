@@ -1,4 +1,4 @@
-# Walmart Retail Data Platform: End-to-End Lakehouse & Orchestration
+# Retail Lakehouse Architecture (Databricks, Delta Lake, dbt Core, Airflow 3)
 
 A production-style retail data platform built with PostgreSQL (OLTP), Databricks Unity Catalog (Delta Lake), dbt Core, and Apache Airflow.
 
@@ -9,7 +9,7 @@ The pipeline ingests transactional data via Change Data Capture (CDC), transform
 ## Architecture Overview
 
 <p align="center">
-  <img src="docs/Data-Architecture.png" alt="Walmart Lakehouse High Level Architecture" width="100%"/>
+  <img src="docs/Data-Architecture.png" alt="Retail Lakehouse High Level Architecture" width="100%"/>
 </p>
 
 ### Pipeline Flow
